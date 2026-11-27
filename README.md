@@ -2,8 +2,15 @@
 
 Power BI report analyzing the Brazilian Olist e-commerce public dataset.
 
-## Contents
-- `olist-ecommerce-sales-analysis.pbix` — full Power BI report (available under Releases)
+## Download the report
+The full report (`olist-ecommerce-sales-analysis.pbix`) is in [Releases](../../releases), split into 2 parts (`.pbix.001` and `.pbix.002`) because of GitHub's upload size limit.
+
+To rebuild it:
+1. Download both parts into the same folder
+2. Join them, either:
+   - Windows Command Prompt: `copy /b olist-ecommerce-sales-analysis.pbix.001+olist-ecommerce-sales-analysis.pbix.002 olist-ecommerce-sales-analysis.pbix`
+   - or open the `.001` file with 7-Zip and extract
+3. Open `olist-ecommerce-sales-analysis.pbix` in Power BI Desktop
 
 ## Report pages
 - **Home** — navigation / overview
